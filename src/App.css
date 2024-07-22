@@ -1,61 +1,28 @@
-.app {
-    text-align: center;
-}
-
-.game-box {
-    display: inline-block;
-    padding: 20px;
-    border: 2px solid #000;
-    border-radius: 10px;
-}
-
-.choices {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-}
-
-.choice {
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.result {
-    margin: 20px 0;
-    padding: 10px;
-    border: 2px solid;
-    border-radius: 10px;
-}
-
-.buttons {
-    margin-top: 20px;
-}
-
-button {
-    margin: 0 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #ddd;
-}
-
-
-.box {
+.box{
     border: 1px solid black;
     width: 500px;
 }
 
-.item-img {
+.item-img{
     width: 400px;
 }
 
-.main {
+.main{
     display: flex;
     justify-content: center;
+}
+
+.win {
+    border: 3px solid green;
+    color: green;
+}
+
+.lose {
+    border: 3px solid red;
+    color: red;
+}
+
+.tie {
+    border: 3px solid blue;
+    color: blue;
 }
